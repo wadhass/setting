@@ -94,7 +94,8 @@ const Login = () => {
           <button
             type='submit'
             disabled={isSubmitting}
-            className='w-full bg-gray-950 text-gray-300 py-3 px-6 rounded-xl flex items-center justify-center gap-2 transition-all disabled:opacity-70 disabled:cursor-not-allowed'
+            className='w-full bg-gray-950 text-gray-300 py-3 px-6 rounded-xl flex items-center 
+            justify-center gap-2 transition-all disabled:opacity-70 disabled:cursor-not-allowed'
           >
             {isSubmitting ? <Loader2 className='animate-spin' size={20} /> : null}
             <span>{isSubmitting ? 'Logging in...' : 'Login'}</span>
